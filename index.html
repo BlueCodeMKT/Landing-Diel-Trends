@@ -16,7 +16,7 @@
             padding: 0;
         }
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: auto;
             padding: 40px;
         }
@@ -58,6 +58,15 @@
             border-radius: 5px;
             font-size: 16px;
         }
+        .event-gallery img {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .sponsors img {
+            width: 150px;
+            margin: 10px;
+        }
     </style>
 </head>
 <body>
@@ -79,6 +88,37 @@
         </div>
         
         <div class="section">
+            <h2>O que foi o último evento:</h2>
+            <div class="event-gallery">
+                <img src="evento-anterior.jpg" alt="Imagem do último evento">
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Depoimentos</h2>
+            <blockquote>"O evento mais completo de tecnologia e gestão de ar condicionado!" - Participante Anônimo</blockquote>
+        </div>
+
+        <div class="section">
+            <h2>Mesa Redonda</h2>
+            <p>Grandes nomes do mercado discutindo o futuro dos facilities.</p>
+            <a href="#" class="button">Quero Participar</a>
+        </div>
+
+        <div class="section">
+            <h2>Local do Evento</h2>
+            <p>Endereço: Alameda Vicente Pinzon, 54 - Vila Olímpia, São Paulo - SP</p>
+            <img src="mapa-localizacao.jpg" alt="Mapa do evento">
+        </div>
+
+        <div class="section sponsors">
+            <h2>Patrocinadores</h2>
+            <img src="sponsor1.png" alt="Patrocinador 1">
+            <img src="sponsor2.png" alt="Patrocinador 2">
+            <img src="sponsor3.png" alt="Patrocinador 3">
+        </div>
+
+        <div class="section">
             <h2>Receba novidades do evento</h2>
             <form id="emailForm">
                 <div class="input-container">
@@ -98,4 +138,4 @@
         });
     </script>
 </body>
-</html>
+</html> 
